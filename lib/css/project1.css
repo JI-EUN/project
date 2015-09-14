@@ -1,0 +1,27 @@
+/*reset*/
+*{padding:0px;
+  margin:0px;}
+
+
+
+/*layout*/
+#wrap{width:1400px;
+ 	  height:1647px;
+ 	  border:1px black solid;
+ 	  margin:0 auto;}
+ 	  
+#header{height:250px;} 	  
+
+#mainbord{height:1244px;}
+         
+#bottom{height:153px;} 
+
+
+
+/*header css*/
+
+#header .topbox {border-bottom:1px #a6a6a6 solid;height:40px;background:url("../../lib/images/topgradation.png") repeat-x;} 					
+#header .topbox .textbox {width:280px;height:24px;margin-right:10px;}					     
+#header .topbox .searchbox{background:url("../../lib/images/searchbox.png") no-repeat; }
+#header .topbox input {position:relative;left:790px;}					     
+
