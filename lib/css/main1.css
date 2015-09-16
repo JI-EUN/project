@@ -1,0 +1,13 @@
+/*reset*/
+*{margin:0;padding:0}
+ul,ol{list-style:none;}
+.ir{font-size:0;position:absolute;left:-9999999px;top:-999999px;overflow:hidden;width: 0;height: 0;}
+fieldset{border:0 none}
+
+
+/*headercss*/
+
+#header .topbar {border-bottom:1px #a6a6a6 solid;height:40px;background:url("../../lib/images/topgradation.png") repeat-x;}
+#header .topbar .wrap{border:1px solid; width:980px;height:40px; margin:0 auto;}
+#header .wrap fieldset{float:right;}
+#header .wrap .textbox{width:279px; border-left:1px #666666 solid; border-top:1px #666666 solid;height:23px; margin-top:5px;}
