@@ -3,18 +3,22 @@
 ul,ol{list-style:none;}
 .ir{font-size:0;position:absolute;left:-9999999px;top:-999999px;overflow:hidden;width: 0;height: 0;}
 fieldset{border:0 none}
-a{text-decoration: none;}
+a{text-decoration: none;color:#989898}
 
+
+/*option*/
+.wrap{width:980px;margin:0 auto;}
+body{font-family:"Dotum"}
 /*headercss*/
 
 #header .topbar {border-bottom:1px #a6a6a6 solid;height:40px;background:url("../../lib/images/topgradation.png") repeat-x;}
-#header .topbar .wrap{width:980px;height:40px; margin:0 auto;}
+#header .topbar .wrap{height:40px;}
 #header .wrap fieldset{float:right;}
 #header .wrap .textbox{width:259px; border-left:1px #666666 solid; border-top:1px #666666 solid;line-height:22px;padding:0 10px}
 #header .wrap .searchbox{width:108px; height:47px;border-right:1px #090203 solid; border-bottom:1px #090203 solid;background:url("../../lib/images/searchbox.png")}
 
 #header .menue{border-bottom:6px #12151f solid;}
-#header .menue .wrap{width:980px;height:168px;margin:0 auto;}
+#header .menue .wrap{height:168px;}
 #header .menue .wrap .logo{margin-top:50px;}
 
 #header .menue{position:relative}
@@ -41,7 +45,7 @@ a{text-decoration: none;}
 #mainbord{height:1244px;margin-top:34px}
 #mainbord .banner{height:300px;text-align:center;position:relative;}
 #mainbord .banner li div{position:absolute;top:0;left:0;width:100%;display:none;height: 300px; overflow:hidden;}
-#mainbord .banner li div img{vertical-align: middle;}
+#mainbord .banner li div img{vertical-align: middle;min-width:100%}
 #mainbord .banner li a{position:relative;z-index:2;top:275px;}
 #mainbord .banner li{display:inline-block;}
 #mainbord .banner ul{margin-left:-300px;}
@@ -49,4 +53,8 @@ a{text-decoration: none;}
 
 #mainbord .banner .notice_bord{position: relative;top:-20.5px;left:335px}
 
-#mainbord .banner .notice_bord
+#mainbord .middle_bord{border-bottom:1px #dedede solid;height:448px;background:url("../../lib/images/middle_bord.png") }
+#mainbord .middle_bord .wrap{height:424px;padding-top:26px}
+#mainbord .middle_bord .wrap .content1{border:1px solid; width:684px; height:192px;}
+#mainbord .middle_bord .wrap .content1 div a{font-size:10px;font-weight:bold;float:right;}
+#mainbord .middle_bord .wrap .content1 ul .middle_bord{border:1px solid; width:165px;height:130px}
