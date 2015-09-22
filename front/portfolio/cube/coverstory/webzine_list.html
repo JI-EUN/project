@@ -7,6 +7,24 @@
 	<base href="file:///D:/UIUX-JIEUN/jieun_project/"/>
 	<!--집<base href="file:///D:/UIUX_JIEUN/jieun_project/"/>-->
 	<link rel="stylesheet" href="lib/css/main1.css" />
+	<script type="text/javascript" src=lib/js/jquery.js> </script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.list-view').click(function(){
+				$('.webzin-list').removeClass().addClass('show-list');
+				return false;
+			});
+
+			$('.story-view').click(function(){
+				$('.show-list').removeClass().addClass('webzin-list');
+				return false;
+			});
+
+		$('.fix_option').click(function(){
+			$(this).next('ul').slideToggle();
+		})
+	})
+	</script>
 </head>
 <body>
  	<div id="header">
@@ -82,10 +100,210 @@
 							<li>Category option</li>
 						</ul>
 					</div>
+					<div class="view-type">
+						<a href="on" class="list-view">List View</a>
+						<a href="" class="story-view active">Story View</a>
+					</div>
 				</div>
-				<div class="view-type">
-					<a href="" class="list-view">List View</a>
-					<a href="" class="story-view">Story View</a>
+
+<!--webzin-list는 보기 방식이 stoy-view 방식/ show-list는 보기방식 list--->
+
+				<div class="webzin-list">
+					<ul>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="commentcolor showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="webzin-img"><img src="lib/images/@list_sample.png" alt=""></div>
+							<div class="content-view">
+								<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+								<p>음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece! 음악의 나의 스토리를 닮은 Master Piece!음악의 나의 스토리를 닮은 Master Piece!</p>
+							</div>
+							<div class="webzin-information">
+								<dl>
+									<dt class="hide">작성일</dt>
+									<dd class="date">2015년 09월 22일</dd>
+									<dt class="hide">작성자</dt>
+									<dd class="writer webzinlist-no">양준모</dd>
+									<dt class="hide">추천갯수</dt>
+									<dd class="pinkcolor showlist-no">86<span class="heart-icon"><sapn>좋아요아이콘</span></span>Like</dd>
+									<dt class="hide">댓글갯수</dt>
+									<dd class="showlist-no">102 comment</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="page">
+					<span class="left_button">
+						<a href=""class="first-page">처음페이지로</a>
+						<a href=""class="prev-page">이전페이지로</a>
+					</span>
+					<span>
+						<a href="" class="on"><span></span>1</a>
+						<a href=""><span>2</span></a>
+						<a href=""><span>3</span></a>
+						<a href=""><span>4</span></a>
+						<a href=""><span>5</span></a>
+						<a href=""><span>6</span></a>
+						<a href=""><span>7</span></a>
+						<a href=""><span>8</span></a>
+						<a href=""><span>9</span></a>
+						<a href=""><span>10</span></a>
+					</span>
+					<span class="right_button">
+						<a href=""class="next-page">다음페이지로</a>
+						<a href=""class="last-page">마지막페이지로</a>
+					</span>
 				</div>
 			</div>
 
