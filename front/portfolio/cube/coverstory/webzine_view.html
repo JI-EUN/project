@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>main1</title>
+	<!--사이트<base href="http://jjejje0128.dothome.co.kr/"/>-->
+	<base href="file:///D:/UIUX-JIEUN/jieun_project/"/>
+	<!--집<base href="file:///D:/UIUX_JIEUN/jieun_project/"/>-->
+	<link rel="stylesheet" href="lib/css/main1.css" />
+	<script type="text/javascript" src=lib/js/jquery.js> </script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.list-view').click(function(){
+				$('.webzin-list').removeClass().addClass('show-list');
+				return false;
+			});
+
+			$('.story-view').click(function(){
+				$('.show-list').removeClass().addClass('webzin-list');
+				return false;
+			});
+
+		$('.fix_option').click(function(){
+			$(this).next('ul').slideToggle();
+		})
+	})
+	</script>
+</head>
+<body>
+ 	<div id="header">
+ 		<div class="topbar">
+ 			<div class="wrap">
+ 				<fieldset>
+ 					<legend class="ir">검색</legend>
+ 							<input class="textbox" type="text"/>
+							<input class="searchbox" type="submit" value=""/>
+ 				</fieldset>
+ 			</div>
+ 		</div>
+		<div class="menue">
+			<div class="wrap">
+				<div class="logo"><img src="lib/images/cubebridge_logo.png"/></div>
+				<div class="mainmenue">
+					<ul>
+						<li class=""><img src="lib/images/lmb_creators.png" /></li>
+						<li class=""><img src="lib/images/lmb_portfoliobox.png" /></li>
+						<li class=""><img src="lib/images/lmb_productplace.png" /></li>
+						<li class=""><img src="lib/images/lmb_event.png" /></li>
+						<li class="on"><img src="lib/images/lmb_webzine.png" />
+						  <div class="submenue">
+							<ul>
+								<li><img src="lib/images/sub_menue1.png"/></li>
+								<li><img src="lib/images/sub_menue2.png"/>
+									<div>
+										<span><img src="lib/images/triangle.png"/></span>
+										<ul>
+											<li><img src="lib/images/menue_hotissue.png"/></li>
+											<li><img src="lib/images/menue_bestportfolio.png"/></li>
+										</ul>
+									</div>
+								</li>
+								<li><img src="lib/images/sub_menue3.png"/></li>
+								<li><img src="lib/images/sub_menue4.png"/></li>
+							</ul>
+					       </div>
+				    	 </li>
+				    	</ul>
+		    		</div>
+		    	</div>
+	    	</div>
+ 	    </div>
+	<div class="h2_subtitle">
+	    <div class="wrap">
+	        <h2>
+	            <img src="lib/images/list_coverstory.png" alt="coverstory">
+                <span><img src="lib/images/list_coverstory_sub.png" alt="인기 Creator들의 Interview 내용을 보실 수 있습니다."></span>
+	        </h2>
+	    </div>
+	</div>
+    <div id="coverstory" class="sub_layout depth2">
+        <div class="wrap">
+            <div class="left_interview">
+                <div class=view_head>
+                    <div><h3><img src="lib/images/h3_view_coverstory.png" alt="Faddo's coverstrory" /></h3></div>
+                    <strong><q>음악의 나의 스토리를 닮은 Master Piece!</q></strong>
+                </div>
+
+                <div class="view_interview">
+                    <div class="normal_tap">
+                        <ul>
+                            <li class="on"><a href="front/portfolio/cube/coverstory/webzine_view.html#cont_inverview"><strong>Interview</strong></a></li>
+                            <li><a href="front/portfolio/cube/coverstory/webzine_view.html#cont_photo"><strong>Photos</strong></a></li>
+                        </ul>
+                        <div class="view_interview_button">
+                            <a href=""><img src="lib/images/view_adcopy.png" alt="주소복사"></a>
+                            <a href=""><img src="lib/images/view_copy.png" alt="퍼가기"></a>
+                        </div>
+                    </div>
+                    <div id="cont_interview">
+                        <div class="cont_interview1">
+                            <div class="interview1_img"><img src="lib/images/@sample_view_interview.png" alt=""/></div>
+                            <div class="interview1_text"><p>감성 힙합의 대표주자, 원써겐 그리고 국내 최고의 스토리텔러, 팻두의 크리스마스의 소망과 희망을 담은 노래, [크리스마스엔 생겼으면 좋겠다]</p>
+                                  <p>지난해, [기억을 지워주는 병원]과 [기억을 지워주는 병원2]를 발표해 지금까지도 음원챠트에 오르내리는 등 많은 사랑을 받았던 원써겐&amp;팻두가 세번째 싱글 [크리스마스엔 생겼으면 좋겠다]를 발표한다.</p>
+                                  <p>[크리스마스엔 생겼으면 좋겠다]는 제목에서도 알 수 있듯이 다가오는 크리스마스에 이루어졌으면 하는 소망을 이야기하는 신나는 템포의 힙합이다.
+                                    아웃사이더, 버벌진트, 조PD 등 수 많은 힙합아티스트들과 호흡을 맞춘 영롱하고 맑은 목소리의 보컬 샛별이 함께해 더욱 원써겐&amp;팻두의 음악에 밝은 색깔을 입혔다. 두번째 트랙, [공항에서 돌아오는 길]은 원써겐 정규2집에 수록되었던 곡에 팻두의 랩을 입혀 재완성 되었다.<p>
+                            </div>
+                            <span>Recently I had the opportunity to work on the Intro and Title for a new Bad Robot show called Revolution by NBC. The show takes place 15 years after the power mysteriously goes out. The objective of the intro was to show the transformation of time passing in a stylistic time-lapse ways to help establish the world.  And although we were visualizing 15 years in only a few seconds,
+                            the reality is that we only had a few weeks to get it done! I thought I would highlight some challenging aspects of the project and share some insights with you.</span>
+                        </div>
+                        <div class="cont_interview2">
+                            <div class="interview2_img1"><img src="lib/images/@sample_view_interview2.png" alt=""></div>
+                            <span class="interview2_text"><p><strong>THE MAIN TITLE:</strong></p>
+                                The main title  was created in After Effects using Element 3D and some proprietary tools we are developing.  The majority of the
+                                work was manually animating masks to flicker each letter but also hinting at the word “EVOLUTION”. Since the title had a lot of
+                                glowing to it, I decided to use 32BPC to keep the glow intensities consistent and natural looking. There is also a bit of smoke
+                                from Action Essentials 2 behind the letters.
+                            </span>
+                            <span class="interview2_text interview2_text2"><p><strong>THE COURTHOUSE SHOT:</strong></p>
+                                    What is an apocalypse without the ruined courthouse?! We wanted to make the emptiness and destruction less depressing so we
+                                    leaned towards a more green and lush vegetation. One of the shows Matte Painters helped give the building a nice worn out look
+                                    with IVY and then I used our plug-in Element 3D to animate some of the leaves and Ivy. The trick here was getting the ivy to wrap
+                                    around the pillars and to obscure the plants as they intersect the concrete. The white pillars here show the matte geometry that
+                                    was used to cut the edges and cast ambient occlusion on the surface. I also used the animation engine to progressively animate
+                                    the leaves outward.
+                            </span>
+                            <div class="interview2_img2"><img src="lib/images/@sample_view_interview3.png" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div id="cont_photo">
+                        <div ><img src="lib/images/@sample_view_interview.png" alt=""></div>
+                        <div ><img src="lib/images/@sample_view_interview2.png" alt=""></div>
+                        <div ><img src="lib/images/@sample_view_interview3.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="sns_option">
+
+                    <span class="like_info">
+                        <a class="pinkcolor" href="">
+                            <span class="bgheart-icon"></span>
+                            Like
+                        </a>
+                    </span>
+
+                    <span class="sns_info">
+                        <a href=""><img src="lib/images/coverstory_facebook.png" alt=""></a>
+                        <a href=""><img src="lib/images/coverstory_twitter.png" alt=""></a>
+                    </span>
+
+                </div>
+                <div class="my_content">
+                    <div class="cube">
+                        <h4><img src="lib/images/coverstory_h4_cube.png" alt=""></h4>
+                        <div><img src="lib/images/@sample_cover_cube.png" alt=""></div>
+                    </div>
+                    <div class="portfolio">
+                        <h4><img src="lib/images/coverstory_h4_portfolio.png" alt=""></h4>
+                        <ul>
+                            <li><div><img src="lib/images/@sample_cover_potfolio1.png" alt=""></div></li>
+                            <li><div><img src="lib/images/@sample_cover_potfolio2.png" alt=""></div></li>
+                            <li><div><img src="lib/images/@sample_cover_potfolio3.png" alt=""></div></li>
+                            <li><div><img src="lib/images/@sample_cover_potfolio4.png" alt=""></div></li>
+                            <li><div><img src="lib/images/@sample_cover_potfolio5.png" alt=""></div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="heart-list">
+                    <span class="pinkcolor block">
+                        <i class="bgheart-icon"></i>
+                        <strong>1256</strong>
+                    </span>
+                    <ul>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="count_comment">
+                    12개 comment가 있습니다.
+                </div>
+
+        </div>
+        <div class="right_interview">
+
+        </div>
+    </div>
+    </div>
+    <div id="footer">
+	 	<div class="talent_bg">
+			<div class="wrap">
+				<div class="talent">
+					<div><img src="lib/images/talentassociation.png" alt="" /><span>Korean Culture를 만들어 가는 것은 여러분입니다. 다양한 분야의 단체들이 한국의 문화를 후원합니다</span></div>
+					<div clss="footer_bunch">
+						<button class="next" ></button>
+						<button class="prev"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="company_bg"></div>
+	</div>
+</body>
+</html>
