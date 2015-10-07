@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@font-face {font-family: "Flaticon";src: url("../font/flaticon.eot");src: url("../font/flaticon.eot#iefix") format("embedded-opentype"),url("../font/flaticon.woff") format("woff"),url("../font/flaticon.ttf") format("truetype"),url("../font/flaticon.svg") format("svg");font-weight: normal;font-style: normal;}
+    [class^="icon-"]:before, [class*=" icon-"]:before,[class^="icon-"]:after, [class*=" icon-"]:after {font-family: Flaticon;font-size: 20px;font-style: normal;margin-left: 20px;}
+    .icon-bird1:before {content: "\e000";}
+    .icon-facebook55:before {content: "\e001";}
+    .icon-videos:before {content: "\e002";}
+/*reset*/
+html,body{height:100%}
+*{margin:0; padding:0}
+ul,ol{list-style:none;}
+img{border:0 none;vertical-align:top;}
+fieldset{border:0 none;}
+legend{text-indent:-99999px;position:absolute;left:-999999px;top:-99999px; font-size:0}
+a{text-decoration:none;color:#000000}
+
+/*option*/
+#white_header{background-color:#ffffff}
+#section_title_bar{height:60px;padding-top:130px;padding-bottom:20px;background-color:#F4F4F4;margin-bottom:90px}
+#section_title{width:500px;height:60px;margin:0 auto;}
+
+/*header css*/
+header{height:100px; box-shadow:0px 2px 5px #909290;position:absolute;width:100%}
+header>div{padding:0 20px}
+header h1{width:104px; height:52px ;background: url("http://wondergirls.jype.com/images/logo-s.png") no-repeat 50%;padding:24px;float:left;transition:1s}
+header h1:hover{-moz-transform: scaleX(-1);-webkit-transform: scaleX(-1);}
+header .gnb{float:right; height:100px;line-height:100px;}
+header .gnb .btn_menue{display:none;}
+header .gnb li{display:inline-block;font-size:16px;}
+header .gnb li a{padding:0 18px;display:block;transition:0.2ms;position:;font-family: 'Oswald', sans-serif;color:#cd2d4c;}
+header .gnb li a:hover{border-top:2px #404791 solid;color:#404791}
+header .gnb ul{font-size:0}
+
+/*section css*/
+.section{height:100%;background: url("http://wondergirls.jype.com/images/bg-pc.jpg") no-repeat;background-position:50% 0px;background-size:cover;}
+.section> .album_title{width:350px;height:250px;background:url("http://wondergirls.jype.com/images/mainlogo.png") no-repeat;background-size:cover;position:relative; margin:0 auto;top:100px;transition:1s}
+.section> .album_title:hover{ transform: scale(1.1);-ms-transform: scale(1.1);-o-transform: scale(1.1);-moz-transform: scale(1.1);-webkit-transform: scale(1.1);opacity:0.9;}
+
+
+/*gallery*/
+.gallery{background:url("http://wondergirls.jype.com/images/title-gallery.png")no-repeat 50%;text-indent:-99999px}
+.gallery_img ul{max-width:769px;margin:0 auto;font-size:0;}
+.gallery_img ul li{display:inline-block;width:20%;padding:0.3%;box-sizing: border-box }
+.gallery_img ul li:first-child{padding-top:none;}
+.gallery_img ul li img{width:100%}
+
+/*footer*/
+footer{height:57px;width:100%;position:fixed;bottom:0;left:0;line-height:57px;z-index:10}
+footer .opa_bg{background:#000;opacity:0.5;width:100%;height:100%}
+footer address{position:absolute; top:0; left:0;width:100%;height:100%;box-sizing:border-box;padding:0 7%}
+footer address>a>img{float:left;margin-top:4px}
+footer address .sns{float:right;}
+footer address .sns li{display:inline-block;width:30px;height:30px; background-color:#ccc;vertical-align:middle;border-radius:5px;}
+footer address .sns li:before{color:#000;margin:0; margin-left:5px; position:relative; top:-12px}
+footer address .sns li a{display:block;width:100%;height:100%;text-indent:-999999px;position:absolute;left:0; top:0}
+
+
+
+
+/*tablet*/
+@media screen and (max-width:769px) {header .gnb .btn_menue{line-height:21px; font-size:14px; text-align:center; display:block; margin-top:-6px; font-family:'Oswald', sans-serif;padding:20px 50px;border:0 none; background-color:#cd2d4c;color:#ffffff;position:absolute;right:0;top:0}
+                                    header .gnb ul{display:none; line-height:46px; margin-top:55px;width:160px;position:absolute; right:0;z-index:2;}
+                                    header .gnb ul:target{display:block}
+                                    header .gnb ul li{display:block;border:0 none;line-height:46px;}
+                                    header .gnb ul li a:hover{border-top:none; border-left:3px #cd2d4c solid;}
+                                    .section{background: #EDF3F1 url("http://wondergirls.jype.com/images/bg-720.jpg")no-repeat; background-position:50% 50%; background-size:100%}
+                                    .section> .album_title{width:250px;z-index:1}
+                                    .section> .album_title:hover{opacity:0;}
+                                    #section_title_bar{padding-top:135px;padding-bottom:30px;height:40px}
+                                    #section_title{width:500px;height:40px;background-size:contain}
+                                    #section_title_bar{margin-bottom:50px}
+                                    .gallery_img ul{max-width:480px}
+                                    .gallery_img ul li{width:33.33333333333333%} }
+
+/*mobile*/
+@media screen and (max-width:480px){header {height:40px;}
+                                    header>div{padding:3px 10px}
+                                    header h1{padding:0; background-size:cover;width:75px;height:30px}
+                                    header .gnb{height:40px;line-height:40px}
+                                    header .gnb .btn_menue{padding:10px 8px; margin-top:0;width:128px}
+                                    header .gnb ul{margin-top:38px;width:144px}
+                                    header .gnb ul li{line-height:40px}
+                                    header .gnb li a{padding:0 5px;}
+                                    .section> .album_title{background-size:70% auto; background-position:center; top:50px}
+                                    #section_title_bar{padding-top:40px;padding-bottom:10px;height:40px}
+                                    #section_title{width:100%;height:30px;background-size:contain; background-position:40% auto;margin-top:10px;}
+                                    #section_title_bar{margin-bottom:40px}
+                                    .gallery_img ul{max-width:300px}
+                                    .gallery_img ul li{width:25%;} }
