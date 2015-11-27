@@ -18,6 +18,7 @@ a{text-decoration:none;color:#000000}
 #section_title_bar{height:60px;padding-top:130px;padding-bottom:20px;background-color:#F4F4F4;margin-bottom:90px}
 #section_title{width:500px;height:60px;margin:0 auto;}
 
+
 /*header css*/
 header{height:100px; box-shadow:0px 2px 5px #909290;position:absolute;width:100%}
 header>div{padding:0 20px}
@@ -38,7 +39,8 @@ header .gnb ul{font-size:0}
 
 /*gallery*/
 .gallery{background:url("http://wondergirls.jype.com/images/title-gallery.png")no-repeat 50%;text-indent:-99999px}
-.gallery_img ul{max-width:769px;margin:0 auto;font-size:0;}
+.gallery_img{max-width:1000px;margin:0 auto;width:85%}
+.gallery_img ul{max-width:769px;margin:0 auto;font-size:0;padding:40px 0}
 .gallery_img ul li{display:inline-block;width:20%;padding:0.3%;box-sizing: border-box }
 .gallery_img ul li:first-child{padding-top:none;}
 .gallery_img ul li img{width:100%}
@@ -68,7 +70,7 @@ footer address .sns li a{display:block;width:100%;height:100%;text-indent:-99999
                                     #section_title_bar{padding-top:135px;padding-bottom:30px;height:40px}
                                     #section_title{width:500px;height:40px;background-size:contain}
                                     #section_title_bar{margin-bottom:50px}
-                                    .gallery_img ul{max-width:480px}
+                                    .gallery_img ul{max-width:480px;}
                                     .gallery_img ul li{width:33.33333333333333%} }
 
 /*mobile*/
@@ -85,4 +87,4 @@ footer address .sns li a{display:block;width:100%;height:100%;text-indent:-99999
                                     #section_title{width:100%;height:30px;background-size:contain; background-position:40% auto;margin-top:10px;}
                                     #section_title_bar{margin-bottom:40px}
                                     .gallery_img ul{max-width:300px}
-                                    .gallery_img ul li{width:25%;} }
+                                    .gallery_img ul li{width:25%;padding-bottom:1%} }

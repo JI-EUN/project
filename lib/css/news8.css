@@ -1,0 +1,70 @@
+/*reset*/
+
+*{padding:0;margin:0;}
+  ul{list-style:none;}
+  a{text-decoration:none;color:inherit;}
+  a:hover{text-decoration:underline;}
+  body{font-family:Dotum,"돋움";font-size:12px;}
+
+
+
+/*option*/
+ .hover-color:hover{color:#205DA2;}
+ .weight{font-weight:bold}
+
+/*layout*/
+body{background-image: url("http://static.naver.net/newsstand/img/20121231/bg_bd.png")}
+
+
+.container{width:900px; height:540px; margin: 0 auto; background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png") no-repeat; padding:10px 18px;}
+.container header{border-bottom:3px #545454 solid;height:50px;padding:20px 0 33px;margin:0 30px 20px;}
+.container .wrap{margin:0 30px;height: 380px;}
+
+.wrap #left-news{width:619px; height:380px;float:left;}
+.wrap #right-news{width:201px;height:380px;margin-left:637px;}
+
+
+/*news css*/
+header ul li{float:left;line-height: 100%}
+header ul #happybean {margin-left:108px}
+
+
+
+
+
+/*news css*/
+header h1 {float:left;height:55px;}
+header #happybean{float:right; padding-top:15px; border:1px ##E6E6E6 solid;}
+header ul{clear: left;}
+header ul li{float:left;line-height:25px}
+
+
+
+/*contents css*/
+.wrap #left-news #headline{border-bottom:2px #1A90D0 solid; width:619px; height:117px;padding:0 0 8px;}
+.wrap #left-news #headline .headline-news-img{width:185px;height:113px;float:left;}
+
+#headline img{width:100%; height:100%}
+#headline li{margin-left:200px;background: url("http://static.naver.net/newsstand/2015/1127/ebuzz/101407/011.png") no-repeat  scroll left -650px;padding-left:13px; line-height: 18px; }
+#headline .headline-news{font-size:19px; font-weight: bold; white-space: nowrap;margin-left:0; background:none; padding-left:0;}
+#headline span{margin-left:15px;}
+#headline div{height:36px;	margin:3px 0;}
+#headline .headline-text{margin-left:200px;height:36px;width:419px;color:#7A7A7A}
+#headline .headline-text a{display:block;}
+
+#grid-news{height:242px; width:110%; margin:10px 0 10px;}
+#grid-news ul li {width:295px; height:74px;float:left;margin:0 25px 7px 0; overflow:hidden;}
+#grid-news .grid-news-img{border:1px #EEEEEE solid; width:120px; height:72px; float:left;margin:0}
+#grid-news ul li img{width:100%;height:100%}
+#grid-news .grid-text{margin-left:129px;line-height:123%;}
+#grid-news .grid-text .small_text{display:block;margin-top:5px;color:#7A7A7A}
+
+
+#right-news li{float:left;}
+#right-news .right-news-img{height:122px;width:201px; margin-bottom: 7px;border:1px #C7C7C7 solid;}
+#right-news ul img{height:100%;width:100%;}
+#right-news span{width:202px; height:40px;position:absolute;padding-top:4px; background:url("http://static.naver.net/newsstand/2015/1127/ebuzz/101407/012.png");padding-top:4px;color:white;text-align: center;}
+#right-news span a{display:block;width:165px;line-height:16px;text-align:center;paddign-top:3px;margin:0 auto;}
+#right-news .position1 {top:216px}
+#right-news .position2  {top:347px;}
+#right-news .position3 {top:478px;}
