@@ -145,3 +145,14 @@ aside .popular .wrap ul{margin-top:10px}
 aside .popular .wrap ul li{height:44px;position:relative;margin-bottom:6px}
 aside .popular .wrap ul li img{float:left;border:1px #c7cbce solid}
 aside .popular .wrap ul li span{display:inline-block;height:32px;width:125px;margin-left:9px;padding-top:8px}
+
+aside .poprank{height:188px;}
+aside .poprank .wrap{height:188px;width:215px;margin:0 auto;border-bottom:1px #C6C7C6 solid;position:relative;}
+aside .poprank .wrap>img{padding-top:14px}
+aside .poprank .wrap>span{padding-top:13px;position:absolute;right:0;display:inline-block;width:40px;height:14px;background:url("../../lib/images/bobe/more_btn.jpg")no-repeat 34px 17px;color:#a2a2a2}
+aside .poprank .wrap>ul{margin-top:5px}
+aside .poprank .wrap>ul li{height:49px;border-top:1px #C6C7C6 solid;position:relative;}
+aside .poprank .wrap>ul li:first-child{border-top:none;}
+aside .poprank .wrap>ul li .rank_num{position:absolute;top:20px}
+aside .poprank .wrap>ul li span{width:82px;display:inline-block;position:absolute;left:20px;top:15px }
+aside .poprank .wrap>ul li>img{position:absolute;right:0;top:3px;border:1px #C6C7C6 solid}
