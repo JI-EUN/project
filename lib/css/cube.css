@@ -1,5 +1,5 @@
 /*reset*/
-*{margin:0;padding:0}
+*{margin:0;padding:0;border:0}
 ul,ol{list-style:none;}
 .ir{font-size:0;position:absolute;left:-9999999px;top:-999999px;overflow:hidden;width: 0;height: 0;}
 fieldset{border:0 none}
@@ -34,7 +34,7 @@ button{border: none;}
 .webzin-list li dl dt:first-child+dd{background:none;}
 .webzin-list .webzin-information .webzinlist-no{display:none;}
 
-.show-list{overflow:hidden;}
+.show-list{overflow:hidden;width:800px!importnat}
 .show-list li{width:175px;height: 210px;float:left;margin-right:10px; margin-bottom:15px}
 .show-list .webzin-img{height:148px;}
 .show-list .webzin-img img{width:100%;height:100%}
@@ -214,6 +214,8 @@ button{border: none;}
 #mainbord .banner li{display:inline-block;}
 #mainbord .banner ul{margin-left:-300px;}
 #mainbord .banner>ul>li.on div{display:block}
+#mainbord .banner .dot{width:100px;position:relative;margin:260px auto ;}
+#mainbord .banner .dot a{}
 
 #mainbord .banner .notice_bord{position: absolute;top:0;right:470px}
 

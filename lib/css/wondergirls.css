@@ -6,7 +6,7 @@
     .icon-videos:before {content: "\e002";}
 /*reset*/
 html,body{height:100%}
-*{margin:0; padding:0}
+*{margin:0; padding:0;border:0}
 ul,ol{list-style:none;}
 img{border:0 none;vertical-align:top;}
 fieldset{border:0 none;}
